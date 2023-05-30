@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$white: #fff;
+
+.box {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    div {
+        width: 25%;
+        height: 300px;
+        border: 0;
+        img {
+            width: 50px;
+            height: 50px;
+            margin-top: 30px;
+            margin-left: 170px;
+        }
+        h6 {
+            font-size: 18px;
+            color: white;
+            margin-left: 170px;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 16px;
+            margin-left: 70px;
+
+        }
+        &:hover {
+            background-color: rgb(48, 48, 67);
+            div:hover {
+                background-color: rgb(48, 48, 67);
+            }
+        }
+        div:hover {
+            background-color: rgb(48, 48, 67);
+        }
+    }
+    .color-red {
+        background-color: red;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+        }
+       
+        
+    }
+    .color-yellow {
+        background-color: yellow;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: yellow;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+        }
+    }
+    
+    .color-brown {
+        background-color: brown;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: brown;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+        }
+    }
+    .color-blue {
+        background-color: blue;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: blue;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+            display: none;
+        }
+    }
+    .color-green {
+        background-color: green;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: green;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+        }
+    }
+    .color-pink {
+        background-color: pink;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: pink;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+        }
+    }
+    .color-coral {
+        background-color: coral;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: coral;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+        }
+    }
+    .color-aqua {
+        background-color: aqua;
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: aqua;
+            transform: rotate(45deg);
+            margin-left: 372.5px;
+            display: none;
+        }
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .box {
+        margin: 0 auto;
+        width: 100%;
+        div {
+            width: 33%;
+            img {
+                margin-left: 102px;
+            }
+            h6 {
+                margin-left: 100px;
+            }
+            p {
+                margin-left: 30px;
+                font-size: 12px;
+            }
+            .box-ratate {
+                margin-left: 90%;
+            }
+        }
+        .color-blue {
+            div {
+                width: 40px;
+                height: 40px;
+                background-color: blue;
+                transform: rotate(45deg);
+                margin-left: 372.5px;
+                display: block;
+                margin-left: 90%;
+            }
+    }
+    
+}}
+
+@media screen and (max-width:480.9px){
+      .box {
+        width: 100%;
+        div {
+            position: relative;
+            width: 480px;
+            img {
+                margin-left: 42%;
+                margin-top: 50px;
+            }
+            h6 {
+                margin-left: 40%;
+                margin-top: 10px;
+            }
+            p {
+                margin-left: 20%;
+                font-size: 16px;
+                margin-top: -150px;
+                position: absolute;
+                display: none;
+
+            }
+            .box-ratate {
+                margin-top: 145px;
+                margin-left: 45%;
+                z-index: 1;
+            }
+        }
+        .color-blue {
+            div {
+                width: 40px;
+                height: 40px;
+                background-color: blue;
+                transform: rotate(45deg);
+                margin-left: 372.5px;
+                display: block;
+                margin-left: 180px;
+            }
+
+      }
+      .color-aqua {
+        div {
+            p {
+                transform: translateY(50px);
+                position: absolute;
+            }
+        }
+      }
+}}
